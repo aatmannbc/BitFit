@@ -1,9 +1,8 @@
-package com.humcomp.bitfitpart2.fragment
+package com.aatmannbc.bitfitpart2.fragment
 
 import android.annotation.SuppressLint
 import android.os.Build
 import android.os.Bundle
-import android.provider.ContactsContract.Data
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -11,13 +10,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.annotation.RequiresApi
 import androidx.fragment.app.Fragment
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import com.humcomp.bitfitpart2.DBHelper
-import com.humcomp.bitfitpart2.R
-import com.humcomp.bitfitpart2.RVAdapter
-import com.humcomp.bitfitpart2.data.Model
-import com.humcomp.bitfitpart2.data.SummaryModel
+import com.aatmannbc.bitfitpart2.DBHelper
+import com.aatmannbc.bitfitpart2.R
 import com.jjoe64.graphview.GraphView
 import com.jjoe64.graphview.series.DataPoint
 import com.jjoe64.graphview.series.LineGraphSeries

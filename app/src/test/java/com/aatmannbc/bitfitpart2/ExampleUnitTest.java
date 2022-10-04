@@ -1,4 +1,4 @@
-package com.humcomp.bitfitpart2;
+package com.aatmannbc.bitfitpart2;
 
 import org.junit.Test;
 

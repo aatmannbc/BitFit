@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.humcomp.bitfitpart2'
+    namespace 'com.aatmannbc.bitfitpart2'
     compileSdk 33
 
     defaultConfig {

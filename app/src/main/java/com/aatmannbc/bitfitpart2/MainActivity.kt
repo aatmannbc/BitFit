@@ -1,4 +1,4 @@
-package com.humcomp.bitfitpart2
+package com.aatmannbc.bitfitpart2
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -6,20 +6,19 @@ import android.content.Context
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
-import android.os.CountDownTimer
 import android.view.View
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.NotificationCompat
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.humcomp.bitfitpart2.fragment.LogFragment
-import com.humcomp.bitfitpart2.fragment.SummaryFragment
+import com.aatmannbc.bitfitpart2.fragment.LogFragment
+import com.aatmannbc.bitfitpart2.fragment.SummaryFragment
 
 class MainActivity : AppCompatActivity() {
     lateinit var bottomNav:BottomNavigationView
-    private val channelId = "com.humcomp.bitfitpart2"
-    private val description = "You've Been Hit By A....Smooth Notification!"
+    private val channelId = "com.aatmannbc.bitfitpart2"
+    private val description = "Add you Food log"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

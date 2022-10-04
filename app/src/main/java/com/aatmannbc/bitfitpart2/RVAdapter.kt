@@ -1,4 +1,4 @@
-package com.humcomp.bitfitpart2
+package com.aatmannbc.bitfitpart2
 
 import android.annotation.SuppressLint
 import android.util.Log
@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.humcomp.bitfitpart2.data.Model
+import com.aatmannbc.bitfitpart2.data.Model
 
 class RVAdapter(private val itemList: MutableList<Model>): RecyclerView.Adapter<RVAdapter.ViewHolder>(){
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {

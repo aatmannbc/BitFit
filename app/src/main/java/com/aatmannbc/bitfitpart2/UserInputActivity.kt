@@ -1,4 +1,4 @@
-package com.humcomp.bitfitpart2
+package com.aatmannbc.bitfitpart2
 
 import android.content.Intent
 import android.os.Build

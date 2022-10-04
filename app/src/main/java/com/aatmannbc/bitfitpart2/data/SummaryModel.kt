@@ -1,4 +1,4 @@
-package com.humcomp.bitfitpart2.data
+package com.aatmannbc.bitfitpart2.data
 
 data class SummaryModel(
     var avgCal:Int,
